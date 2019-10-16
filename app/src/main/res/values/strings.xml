@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="TxtUsuario">Usuario</string>
+    <string name="TxtClave">Clave</string>
+    <string name="BtnLogin">Ingresar</string>
+    <string name="CambioClave">Recuperar contraseña</string>
+    <string name="Login_ok">Login ok</string>
+    <string name="Login_fail">Usuario o contraseña incorrecta.</string>
+    <string name="btn_recuperar">Recuperar</string>
+</resources>
