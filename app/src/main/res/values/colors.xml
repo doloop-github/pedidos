@@ -3,6 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#0404B4</color>
-    <color name="ColorBotonstart">#16a085</color>
+    <color name="ColorBotonstart">#16A085</color>
     <color name="ColorBotonend"> #d0ece7 </color>
+    <color name="ColorBlanco">#FFFFFF</color>
+    <color name="ColorRojo">#E74C3C</color>
+    <color name="ColorBtnConf">#EC7063</color>
+    <color name="ColorBtnEndPr">#FBEFEF</color>
+    <color name="ColorBtnConPedEnd">#F5A9A9</color>
 </resources>

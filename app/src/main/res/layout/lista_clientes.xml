@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="RazonSocial o Apellido y nombre"
+        android:textStyle="bold"
+        android:id="@+id/rz_clte"
+        android:textSize="16sp"
+        android:textColor="#1F618D"
+        android:layout_marginLeft="@dimen/Margenes5"
+        android:layout_marginRight="@dimen/Margenes5"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="Domicilio:  "
+            android:textSize="15sp"
+            android:id="@+id/eti_domicilio"/>
+
+        <TextView
+            android:id="@+id/domicilio_clte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@android:color/secondary_text_light"
+            android:text="$" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="C.P.:  "
+            android:id="@+id/eti_cp"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="#####"
+            android:id="@+id/cp_clte"
+            android:textColor="@android:color/secondary_text_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="Localidad:  "
+            android:id="@+id/eti_loc"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="XXXXX"
+            android:id="@+id/localidad_clte"
+            android:textColor="@android:color/secondary_text_light"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="Provincia:  "
+            android:id="@+id/eti_provincia"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="XXXXX"
+            android:id="@+id/provincia_clte"
+            android:textColor="@android:color/secondary_text_light"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -7,4 +7,11 @@
     <string name="Login_ok">Login ok</string>
     <string name="Login_fail">Usuario o contraseña incorrecta.</string>
     <string name="btn_recuperar">Recuperar</string>
+    <string name="btn_add">Nuevo</string>
+    <string name="btn_edit">Modificar</string>
+    <string name="btn_consulta">Consultar</string>
+    <string name="btn_ConfPEd">Confirma Pedido</string>
+    <string name="eti_cliente">Cliente:</string>
+    <string name="eti_total">Total Pedido: $</string>
+    <string name="eti_confima">Confirma</string>
 </resources>

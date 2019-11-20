@@ -2,5 +2,18 @@
 <resources>
     <dimen name="TxtAncho">208dp</dimen>
     <dimen name="TxtAltura">42dp</dimen>
-    <dimen name="RadioEscBotones">6dp</dimen>
+    <dimen name="RadioEscBotones">10dp</dimen>
+    <dimen name="TamTxtDatosPedidoClte">18sp</dimen>
+    <dimen name="TamTxtDatosPedidoTotal">20sp</dimen>
+    <dimen name="TamListViewDatPed">380dp</dimen>
+    <dimen name="fab_margin">30dp</dimen>
+    <dimen name="Margenes5">5dp</dimen>
+    <dimen name="Margenes10">10dp</dimen>
+    <dimen name="Margenes15">15dp</dimen>
+    <dimen name="Margenes20">20dp</dimen>
+    <dimen name="Margenes30">30dp</dimen>
+    <dimen name="Margenes40">40dp</dimen>
+    <dimen name="Margenes50">50dp</dimen>
+    <dimen name="Margenes60">60dp</dimen>
+    <dimen name="Margenes100">100dp</dimen>
 </resources>

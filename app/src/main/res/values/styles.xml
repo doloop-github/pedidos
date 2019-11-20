@@ -8,6 +8,23 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- tema del toolbar-->
+    <style name="AppThemeCustomToolBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <!-- color del titulo-->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- color del titulo del menu-->
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
     <style name="TxtLogin">
         <item name="android:textSize">18sp</item>
         <item name="android:gravity">center_vertical</item>
@@ -15,6 +32,28 @@
 
     <style name="Botones">
         <item name="android:background">@drawable/fondo_botones</item>
+        <item name="android:layout_marginLeft">@dimen/Margenes10</item>
+        <item name="android:layout_marginRight">@dimen/Margenes10</item>
+    </style>
+
+    <style name="BtnConfPed">
+        <item name="android:background">@drawable/fondo_btn_conf</item>
+        <item name="android:textColor">@color/ColorBlanco</item>
+    </style>
+
+    <style name="TxtDatosPedidoClte">
+        <item name="android:background">@color/ColorBotonend</item>
+        <item name="android:textSize">@dimen/TamTxtDatosPedidoClte</item>
+    </style>
+
+    <style name="TxtDatosPedidoTotal">
+        <item name="android:background">@color/ColorBotonend</item>
+        <item name="android:textSize">@dimen/TamTxtDatosPedidoTotal</item>
+    </style>
+
+    <style name="BotonFlotante">
+        <!--<item name="android:backgroundTint">@color/colorPrimary</item>-->
+        <item name="android:tint">@color/ColorBlanco</item>
     </style>
 
 </resources>

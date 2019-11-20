@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_AdPord">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Descripcion del producto"
+        android:textStyle="bold"
+        android:id="@+id/descripcion_prod"
+        android:textSize="16sp"
+        android:textColor="#1F618D"
+        android:layout_marginLeft="@dimen/Margenes5"
+        android:layout_marginRight="@dimen/Margenes5"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="Precio:  "
+            android:textSize="15sp"
+            android:id="@+id/eti_precio"/>
+
+        <TextView
+            android:id="@+id/precio_prod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eti_precio"
+            android:textSize="15sp"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/secondary_text_light"
+            android:text="$" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Margenes20"
+            android:text="Stock:  "
+            android:id="@+id/eto_stock"
+            android:textSize="14sp"
+            android:layout_below="@+id/precio_prod" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="##.##"
+            android:id="@+id/stock_prod"
+            android:textColor="@android:color/secondary_text_light"
+            android:layout_below="@+id/precio_prod" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"></Space>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U.M."
+            android:id="@+id/um_prod"
+            android:layout_below="@+id/stock_prod" />
+    </LinearLayout>
+
+</LinearLayout>
